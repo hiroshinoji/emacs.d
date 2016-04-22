@@ -28,7 +28,7 @@
 ;; scratch のメッセージを空にする
 ;; (setq initial-scratch-message nil)
 
-(menu-bar-mode nil)
+(menu-bar-mode -1)
 
 (require 'whitespace)
 ;; visualize whitespace
