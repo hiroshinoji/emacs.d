@@ -38,6 +38,8 @@
     ruby-mode
     wgrep
     wgrep-ag
+    sbt-mode
+    scala-mode2
     seti-theme
     win-switch
     yasnippet
