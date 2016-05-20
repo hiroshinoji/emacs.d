@@ -1,4 +1,4 @@
-(require 'scala-mode2)
+(require 'scala-mode)
 
 (add-hook
  'scala-mode-hook

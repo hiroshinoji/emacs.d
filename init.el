@@ -20,6 +20,7 @@
     company
     cperl-mode
     direx
+    ensime
     helm
     helm-ag
     helm-descbinds
@@ -39,7 +40,7 @@
     wgrep
     wgrep-ag
     sbt-mode
-    scala-mode2
+    ;; scala-mode2
     seti-theme
     win-switch
     yasnippet
