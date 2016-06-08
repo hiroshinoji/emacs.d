@@ -17,11 +17,11 @@
 
     (local-set-key (kbd "M-'") 'next-error)
 
-    (require 'whitespace)
-    ;; clean-up whitespace at save
-    (make-local-variable 'before-save-hook)
-    (add-hook 'before-save-hook 'whitespace-cleanup)
-    ;; (whitespace-mode)
+    ;; (require 'whitespace)
+    ;; ;; clean-up whitespace at save
+    ;; (make-local-variable 'before-save-hook)
+    ;; (add-hook 'before-save-hook 'whitespace-cleanup)
+    ;; ;; (whitespace-mode)
     ))
 
 (require 'sbt-mode)
