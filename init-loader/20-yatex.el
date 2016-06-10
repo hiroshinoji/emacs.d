@@ -11,5 +11,6 @@
   (setq YaTeX-dvi2-command-ext-alist
         '(("Preview\\|TeXShop\\|TeXworks\\|Skim\\|mupdf\\|xpdf\\|Firefox\\|Adobe" . ".pdf")))
 
-  (setq YaTeX-kanji-code 4)
   (setq YaTeX-use-AMS-LaTeX t))
+
+(setq YaTeX-kanji-code 4)
