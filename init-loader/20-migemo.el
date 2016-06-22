@@ -3,7 +3,11 @@
 (setq migemo-options '("-q" "--emacs"))
 
 ;; Set your installed path
-(setq migemo-dictionary "/usr/local/share/migemo/utf-8/migemo-dict")
+(if (file-exists-p "/usr/local/share/migemo/utf-8/migemo-dict")
+    (setq migemo-dictionary "/usr/local/share/migemo/utf-8/migemo-dict")
+  (setq migemo-dictionary "/home/noji/local/migemo/utf-8/migemo-dict")
+)
+
 
 (setq migemo-user-dictionary nil)
 (setq migemo-regex-dictionary nil)
