@@ -55,10 +55,10 @@
       (process-send-string proc text)
       (process-send-eof proc))))
 
-;; This may cause some problems under environments other than OSX?
 ;; See https://yono05.wordpress.com/2011/11/20/emacs-と-mac-のクリップボードを共有する/
-(setq interprogram-cut-function 'paste-to-osx)
-(setq interprogram-paste-function 'copy-from-osx)
+(when (eq system-type 'darwin)
+  (progn (setq interprogram-cut-function 'paste-to-osx)
+         (setq interprogram-paste-function 'copy-from-osx)))
 
 (custom-set-variables
  ;; '(truncate-lines           t)              ; truncate line
