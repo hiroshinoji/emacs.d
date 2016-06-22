@@ -1,7 +1,7 @@
 ;; basic key bindings
 (global-set-key (kbd "C-h") #'backward-delete-char)
-(global-set-key "C-m" #'newline-and-indent)
-(global-set-key "M-?" #'help-for-help)
+(global-set-key (kbd "C-m") #'newline-and-indent)
+(global-set-key (kbd "M-?") #'help-for-help)
 (global-set-key (kbd "M-g") #'goto-line)
 (global-set-key (kbd "C-x C-b") #'buffer-menu)
 (global-set-key (kbd "M-<down>") #'enlarge-window)
